@@ -9,7 +9,7 @@ declare global {
 }
 
 
-
+//now check 
 
 const prisma: ReturnType<typeof prismaClientSingleton> = globalThis.prismaGlobal ?? prismaClientSingleton()
 
